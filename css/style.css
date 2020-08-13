@@ -221,7 +221,7 @@ margin-bottom: 15px;
     color: white;
 }
 .credo {
-    background: url('/images/bg/bg_credo.png');
+    background: url('/images/bg/bg_credo.png') no-repeat;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -243,4 +243,53 @@ margin-bottom: 15px;
     text-align: center;
     width: 1043px;
     margin-bottom: 160px;
+}
+.development__price-left_bg {
+    position: relative;
+    top: -45px;
+    background: url('/images/bg/bg-development.png') no-repeat;
+    height: 526px;
+    width: 666px;
+}
+.development__head {
+    font-family: 'Parangon530C';
+    font-size: 50px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding-top: 133px;
+}
+.development__items {
+    position: relative;
+    top: -300px;
+    display: flex;
+    justify-content: center;
+}
+.development__item1 {
+    background: url('/images/bg/bg-development-item1.png') no-repeat;
+    height: 315px;
+    width: 366px;
+    margin-right: 17px;
+}
+.development__item2 {
+    background: url('/images/bg/bg-development-item2.png') no-repeat;
+    height: 315px;
+    width: 366px;
+    margin-right: 17px;
+}
+.development__item3 {
+    background: url('/images/bg/bg-development-item3.png') no-repeat;
+    height: 315px;
+    width: 366px;
+}
+.development__item-text {
+    font-family: 'Exo2';
+    font-size: 51px;
+    font-weight: bold;
+    line-height: 49px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 74px;
+    margin-left: 37px;
+    margin-right: 37px;
+    height: 120px;
+    border-bottom: 1px solid white;
 }

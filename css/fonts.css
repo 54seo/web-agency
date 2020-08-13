@@ -38,16 +38,16 @@
 }
 
 @font-face {
-    font-family: 'font7509ab665b2c6360611f851fad6afd48';
+    font-family: 'fontdaf9f7e7b7f6c952c34762d50c46dbb4';
 
-    src: url('https://nomail.com.ua/files/eot/7509ab665b2c6360611f851fad6afd48.eot?#iefix') format('embedded-opentype'),
-        url('https://nomail.com.ua/files/woff/7509ab665b2c6360611f851fad6afd48.woff') format('woff'),
-        url('https://nomail.com.ua/files/woff2/7509ab665b2c6360611f851fad6afd48.woff2') format('woff2');
+    src: url('https://nomail.com.ua/files/eot/daf9f7e7b7f6c952c34762d50c46dbb4.eot?#iefix') format('embedded-opentype'),
+        url('https://nomail.com.ua/files/woff/daf9f7e7b7f6c952c34762d50c46dbb4.woff') format('woff'),
+        url('https://nomail.com.ua/files/woff2/daf9f7e7b7f6c952c34762d50c46dbb4.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'FuturaBT';
-    src: local('FuturaBT'), url('https://nomail.com.ua/files/woff/7509ab665b2c6360611f851fad6afd48.woff') format('woff');
+    src: local('FuturaBT'), url('https://nomail.com.ua/files/woff/daf9f7e7b7f6c952c34762d50c46dbb4.woff') format('woff');
 }
 
 @font-face {
@@ -91,30 +91,31 @@
 
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?327bzt');
-    src:  url('../fonts/icomoon.eot?327bzt#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?327bzt') format('truetype'),
-      url('../fonts/icomoon.woff?327bzt') format('woff'),
-      url('../fonts/icomoon.svg?327bzt#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?327bzt');
+    src: url('../fonts/icomoon.eot?327bzt#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?327bzt') format('truetype'),
+        url('../fonts/icomoon.woff?327bzt') format('woff'),
+        url('../fonts/icomoon.svg?327bzt#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
-  [class^="icon-"], [class*=" icon-"] {
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    speak: never;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-  
+
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-arrow-right2:before {
+}
+
+.icon-arrow-right2:before {
     content: "\ea3c";
-  }
+}
