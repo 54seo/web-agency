@@ -33,7 +33,7 @@
 }
 
 @font-face {
-    font-family: 'Exo2-SemiBold';
+    font-family: 'Exo2';
     src: local('Exo2-SemiBold'), url('https://nomail.com.ua/files/woff/b3182e9ba6d3bc59be42c5f6040c2b21.woff') format('woff');
 }
 
@@ -46,8 +46,8 @@
 }
 
 @font-face {
-    font-family: 'FuturaBT-Bold';
-    src: local('FuturaBT-Bold'), url('https://nomail.com.ua/files/woff/7509ab665b2c6360611f851fad6afd48.woff') format('woff');
+    font-family: 'FuturaBT';
+    src: local('FuturaBT'), url('https://nomail.com.ua/files/woff/7509ab665b2c6360611f851fad6afd48.woff') format('woff');
 }
 
 @font-face {
@@ -62,3 +62,59 @@
     font-family: 'PTSans';
     src: local('PTSans-Regular'), url('https://nomail.com.ua/files/woff/dd4392e46da08ffb5d099ad7532b24f9.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'fontfa7892c650d8237d04043b1cf3cdc49f';
+
+    src: url('https://nomail.com.ua/files/eot/fa7892c650d8237d04043b1cf3cdc49f.eot?#iefix') format('embedded-opentype'),
+        url('https://nomail.com.ua/files/woff/fa7892c650d8237d04043b1cf3cdc49f.woff') format('woff'),
+        url('https://nomail.com.ua/files/woff2/fa7892c650d8237d04043b1cf3cdc49f.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'FuturaDemiC';
+    src: local('FuturaDemiC'), url('https://nomail.com.ua/files/woff/fa7892c650d8237d04043b1cf3cdc49f.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'font7ac1c8f0b974a943aa67859c07f86bd2';
+
+    src: url('https://nomail.com.ua/files/eot/7ac1c8f0b974a943aa67859c07f86bd2.eot?#iefix') format('embedded-opentype'),
+        url('https://nomail.com.ua/files/woff/7ac1c8f0b974a943aa67859c07f86bd2.woff') format('woff'),
+        url('https://nomail.com.ua/files/woff2/7ac1c8f0b974a943aa67859c07f86bd2.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: local('HelveticaNeueCyr-Bold'), url('https://nomail.com.ua/files/woff/7ac1c8f0b974a943aa67859c07f86bd2.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?327bzt');
+    src:  url('../fonts/icomoon.eot?327bzt#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?327bzt') format('truetype'),
+      url('../fonts/icomoon.woff?327bzt') format('woff'),
+      url('../fonts/icomoon.svg?327bzt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-right2:before {
+    content: "\ea3c";
+  }
